@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def third_page
+  end
 end
