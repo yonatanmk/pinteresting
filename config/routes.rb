@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
     root "pages#home"
     get "about" => "pages#about" #creates about path
     get "third_page" => "pages#third_page" #creates third_page path
