@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 #below here are the gems you added_________________________
 gem 'bootstrap-sass'
 gem 'devise', '~>4.2.0'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
   gem 'sqlite3' # Use Puma as the app server
