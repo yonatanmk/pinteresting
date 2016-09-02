@@ -32,11 +32,15 @@ gem 'jbuilder', '~> 2.5'
 #below here are the gems you added_________________________
 gem 'bootstrap-sass'
 gem 'devise', '~>4.2.0'
+
+# image upload gems
 #gem 'paperclip', github: 'thoughtbot/paperclip' #Debugging
 gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
 gem 'aws-sdk', '< 2.0'#Debugging
 #gem 'aws-sdk', ''~> 1.5.7'' #Debugging
 #gem 'aws-sdk', '~> 2'#Debugging
+
+gem 'masonry-rails', '~> 0.2.0'
 
 group :development, :test do
   gem 'sqlite3' # Use Puma as the app server
