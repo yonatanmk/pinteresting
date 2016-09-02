@@ -32,8 +32,8 @@ gem 'jbuilder', '~> 2.5'
 #below here are the gems you added_________________________
 gem 'bootstrap-sass'
 gem 'devise', '~>4.2.0'
-gem 'paperclip', github: 'thoughtbot/paperclip' #Debugging
-#gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
+#gem 'paperclip', github: 'thoughtbot/paperclip' #Debugging
+gem 'paperclip', :git=> 'https://github.com/thoughtbot/paperclip', :ref => '523bd46c768226893f23889079a7aa9c73b57d68'
 gem 'aws-sdk', '< 2.0'#Debugging
 #gem 'aws-sdk', ''~> 1.5.7''
 #gem 'aws-sdk', '~> 2'
