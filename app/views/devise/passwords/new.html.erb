@@ -1,11 +1,11 @@
 <div class="panel panel-default">
-  <div class="panel-heading">
+  <div class="panel-heading" id = 'image_box2'>
     <div class="panel-title">
       <h2>Forgot your password?</h2>
     </div>
   </div>
 
-  <div class="panel-body"
+  <div class="panel-body" id = 'image_box' >
     <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
       <%= devise_error_messages! %>
 
@@ -20,7 +20,7 @@
     <% end %>
   </div>
 
-  <div class="panel-footer">
+  <div class="panel-footer" id = 'image_box2'>
     <%= render "devise/shared/links" %>
   </div>
 </div>

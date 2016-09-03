@@ -1,12 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import 'https://fonts.googleapis.com/css?family=Great+Vibes';
 
-$body-bg:                          #ecf0f1;
+$body-bg:                          #654236;
 $font-family-sans-serif:           'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-height:                    45px;
-$navbar-default-bg:                white;
+$navbar-height:                    50px;
+$navbar-default-bg:                #FFEEDB;
 $navbar-default-brand-color:       #c0392b;
 $brand-primary:                    #c0392b;
-$jumbotron-bg:                     white;
+$jumbotron-bg:                     #CEB992;
+$panel-default-bg:                 #CEB992;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -15,6 +17,27 @@ $jumbotron-bg:                     white;
      text-align: center;
 }
 
-.navbar-brand {
+.navbar-default .navbar-brand {
      font-weight: bold;
+     font-size: 200%;
+     color: #A53860;
+     font-family: 'Great Vibes', cursive;
+}
+
+.navbar-default .navbar-nav{
+  font-family: 'Great Vibes', cursive;
+}
+
+#welcome {
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold;
+  font-size: 700%;
+}
+
+#image_box {
+  background-color: #CEB992;
+}
+
+#image_box2 {
+  background-color: #ADA8B6;
 }

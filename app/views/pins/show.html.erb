@@ -1,12 +1,12 @@
-<%= link_to 'Back', pins_path %>
+
 
 <div class="row">
   <div class="col-md-offset-2 col-md-8">
     <div class="panel panel-default">
-      <div class="panel-heading center">
+      <div class="panel-heading center" id = 'image_box2'>
         <%= image_tag @pin.image.url(:medium) %>
       </div>
-      <div class="panel-body">
+      <div class="panel-body" id = 'image_box'>
         <p><%= @pin.description %></p>
         <p><strong><%= @pin.user.name if @pin.user %></strong></p>
 
@@ -21,7 +21,7 @@
             Delete
           <% end %>
         <% end %>
-
+        <%= link_to 'Back', pins_path %>
       </div>
     </div>
   </div>
