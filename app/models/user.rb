@@ -9,4 +9,6 @@ class User < ApplicationRecord
   #validates :password, :presence => true,
   #          :on => :create,
   #          :format => {:with => /\A.*(?=.{6,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\@\#\!\?\*\$\%\^\&\+\=]).*\Z/ }
+
+  validates :name, presence: true
 end
