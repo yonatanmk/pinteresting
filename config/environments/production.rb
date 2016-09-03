@@ -86,8 +86,8 @@ Rails.application.configure do
 
   #required for heroku
   #Note to set this to your actual host
-  config.action_mailer.default_url_options = { host: 'https://nameless-waters-17242.herokuapp.com/ ' }
-=begin
+  config.action_mailer.default_url_options = { host: 'https://pacific-citadel-71201.herokuapp.com/ ' }
+
   # Sets Paperclip to upload images to Amazon S3
   config.paperclip_defaults = {
   storage: :s3,
@@ -98,6 +98,5 @@ Rails.application.configure do
     s3_region: ENV.fetch('AWS_REGION'),
   }
   }
-  =end
 
 end
