@@ -1,29 +1,31 @@
 <div class="jumbotron center">
   <h1 id = 'welcome'>Think Pawsitive</h1>
+  <div class="embed-responsive embed-responsive-16by9" style="margin: 10px 100px 40px 100px">
   <% cat_vid_count = rand(1..11) %>
-  <% if cat_vid_count == 1 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/598IdFlOXcQ" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 2 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hPzNl6NKAG0" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 3 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Awf45u6zrP0" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 4 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/JeTzsy2IrRM" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 5 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EJREoF9JHeU" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 6 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bzvUyu3zOmE" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 7 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BZJPPmbJ7_E" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 8 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vsRSjsRpjHY" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 9 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1hhW76BIwP4" frameborder="0" allowfullscreen></iframe>
-  <% elsif cat_vid_count == 10 %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/sumn6flhNtg" frameborder="0" allowfullscreen></iframe>
-  <% else %>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/qIMvntC6pBc" frameborder="0" allowfullscreen></iframe>
+    <% if cat_vid_count == 1 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/598IdFlOXcQ" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 2 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hPzNl6NKAG0" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 3 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Awf45u6zrP0" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 4 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JeTzsy2IrRM" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 5 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EJREoF9JHeU" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 6 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bzvUyu3zOmE" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 7 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BZJPPmbJ7_E" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 8 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vsRSjsRpjHY" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 9 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1hhW76BIwP4" frameborder="0" allowfullscreen></iframe>
+    <% elsif cat_vid_count == 10 %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sumn6flhNtg" frameborder="0" allowfullscreen></iframe>
+    <% else %>
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qIMvntC6pBc" frameborder="0" allowfullscreen></iframe>
   <% end %>
+  </div>
   <p>
     <%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-lg" %>
     <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-default btn-primary btn-lg" %>
