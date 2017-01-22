@@ -1,6 +1,1 @@
-#One Month Rails
-
-This is the pinteresting sample application for
-[*One Month Rails*](http://onemonthrails.com)
-
-by Yonatan
+Think is a simple webapp where users can login to upload pictures of cats and view the cat pictures that others have submitted
